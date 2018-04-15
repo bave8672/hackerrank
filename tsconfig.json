@@ -9,6 +9,7 @@
         "target": "es5",
         "lib": ["es5", "es2015", "esnext", "scripthost"],
         "typeRoots": ["node_modules/@types"],
+        "removeComments": true,
     },
     "exclude": [
         "**/*.spec.ts"
